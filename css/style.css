@@ -5,6 +5,7 @@ body {
     /* font-family: Georgia,"Times New Roman",Times,serif; */
     font-size: 18px;
     line-height: 150%;
+    color: #dfe4ea;
 }
 
 .navbar-custom {
@@ -19,6 +20,10 @@ body {
     color: #dfe4ea;
 }
 
+#container {
+    margin-top: 8px;
+}
+
 #profile, #pages {
     background-color: black;
     border-color: #dfe4ea;
@@ -30,7 +35,14 @@ body {
 #profile {
     text-align: center;
 }
-#profileImage {
+#pages {
+    padding: 1em;
+}
+
+#pages p {
+    margin:0;
+}
+.profileImage {
     height: 200px;
     width: 200px;
     margin: 1em;
@@ -42,3 +54,49 @@ img {
     border-color: #dfe4ea;
 }
 
+#projects, #contacts, #resume{
+    display: none;
+}
+
+.card {
+    background-color: black;
+    border-color: #dfe4ea;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 8px;
+    border-radius: 16px;
+}
+.card p {
+    margin: 0;
+}
+
+.card img {
+    height: 175px;
+    width: 250px; 
+}
+
+.card-body {
+    padding: 6px;
+    text-align: center;
+}
+
+#pages a {
+    color: #dfe4ea;
+    text-decoration: underline;
+    padding: 2px
+}
+
+.card-footer {
+    border-top-style: solid;
+    border-color: #dfe4ea;
+}
+#picniqHead, #weatherHead, #workdayHead {
+   background-color: rgb(95, 92, 92);
+   border-top-left-radius: 16px;
+   border-top-right-radius: 16px;
+   padding: 2px;
+}
+
+#contacts {
+    
+}

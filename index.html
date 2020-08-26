@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm navbar-custom rounded" id="navbar">
+  <nav class="navbar navbar-expand-sm navbar-custom rounded fixed-top" id="navbar">
     <a class="navbar-brand" href="#" id="steven">Steven Schaab</a>
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -23,31 +23,64 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Projects <span class="sr-only">(current)</span></a>
+          <a class="nav-link" id="projectsBtn" href="#">Projects</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="portfolio.html">Contacts</a>
+          <a class="nav-link" id="contactsBtn" href="#">Contacts</a>
         </li>
         <li class="nav-item active">
-            <a class="nav-link" href="contact.html">Resume</a>
+            <a class="nav-link" id="resumeBtn" href="#">Resume</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <div class="container-fluid container-lg">
+  <br><br>
+
+  <div class="container-fluid container-lg" id="container">
     <div class="row">
       <div class="col-sm-5 rounded">
         <div id="profile">
-          <img src="images/autograph.jpg" id="profileImage">
+          <img src="images/autograph.jpg" class="profileImage">
         </div>
       </div>
-      <div class="col-sm-7">
+      <div class="col-sm-7 rounded">
         <div id="pages">
-          <div id="projects"></div>
-          <div id="contacts"></div>
-          <div id="resume"></div>
+        <div id="projects">
+          <div class="card">
+            <div class="card-header" id="picniqHead"><p>Picniq</p></div>
+            <div class="card-body"><img src="images/picniq.png" alt="Picniq App"></div>
+            <div class="card-footer">
+              <a href="https://raygun2thehead.github.io/Picniq/">Site</a>
+              <a href="https://github.com/raygun2thehead/Picniq">Repo</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="weatherHead"><p>Weather Dashboard</p></div>
+            <div class="card-body"><img src="images/weather.png" alt="Picniq App"></div>
+            <div class="card-footer">
+              <a href="https://raygun2thehead.github.io/weatherDashboard/">Site</a>
+              <a href="https://github.com/raygun2thehead/weatherDashboard">Repo</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="workdayHead"><p>Workday Scheduler</p></div>
+            <div class="card-body"><img src="images/workday.png" alt="Picniq App"></div>
+            <div class="card-footer">
+              <a href="https://github.com/raygun2thehead/workDayPlanner">Site</a>
+              <a href="https://github.com/raygun2thehead/workDayPlanner">Repo</a>
+            </div>
+          </div>
         </div>
+        <div id="contacts">
+          <a href="tel:7736569747">Phone Number</a><br>
+          <a href="mailto:stevenes83@gmail.com">Email</a><br>
+          <a href="https://github.com/raygun2thehead">GitHub</a><br>
+          <a href="https://www.linkedin.com/in/stevenschaab/">LinkedIn</a>
+
+        </div>
+        <div id="resume"><p>coming soon!!!</p></div>
+      </div>
       </div>
     </div>
   </div>

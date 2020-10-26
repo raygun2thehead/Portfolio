@@ -8,7 +8,7 @@
    * Personal portfolio exhibiting past projects and current contacts
 ## Screenshots
    ### Landing Page
-   ![Landing page](./images/main.PNG)
+   ![Landing page](./images/main.png)
    ### Projects Page
    ![Projects page](./images/projects.png)
    ### Contact page

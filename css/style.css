@@ -93,7 +93,7 @@ img {
     border-top-style: solid;
     border-color: #dfe4ea;
 }
-#picniqHead, #weatherHead, #workdayHead {
+#cardHead {
    background-color: rgb(95, 92, 92);
    border-top-left-radius: 16px;
    border-top-right-radius: 16px;

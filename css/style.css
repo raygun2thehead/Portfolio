@@ -100,3 +100,8 @@ img {
    padding: 2px;
 }
 
+@media (min-width: 600px) {
+    #profile {
+        position: fixed;
+    }
+}

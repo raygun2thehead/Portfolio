@@ -16,8 +16,13 @@ $("#contactsBtn").on("click", function() {
 
 $("#resumeBtn").on("click", function() {
     $("#resume").show();
-    $("#pages").show();
-    $("#contacts").hide();
-    $("#projects").hide();
+    $("#pages").hide();
     $('.navbar-collapse').collapse('hide');
     })
+
+    $(".close").on("click", function() {
+        $("#resume").hide();
+    })
+
+
+    

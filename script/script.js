@@ -3,6 +3,7 @@ $("#projectsBtn").on("click", function() {
     $("#pages").show();
     $("#contacts").hide();
     $("#resume").hide();
+    $('.navbar-collapse').collapse('hide');
     })
 
 $("#contactsBtn").on("click", function() {
@@ -10,6 +11,7 @@ $("#contactsBtn").on("click", function() {
     $("#pages").show();
     $("#projects").hide();
     $("#resume").hide();
+    $('.navbar-collapse').collapse('hide');
     })
 
 $("#resumeBtn").on("click", function() {
@@ -17,4 +19,5 @@ $("#resumeBtn").on("click", function() {
     $("#pages").show();
     $("#contacts").hide();
     $("#projects").hide();
+    $('.navbar-collapse').collapse('hide');
     })
